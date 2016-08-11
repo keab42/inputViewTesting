@@ -13,6 +13,7 @@ import WebKit
 class WebWrapperView : UIView
 {
     @IBOutlet weak var loadButton: UIButton!
+    @IBOutlet weak var responderTestButton: ResponderButton!
     @IBOutlet weak var wrapperView: UIView!
     var myWebView: WKWebView!
     
@@ -41,6 +42,10 @@ class WebWrapperView : UIView
     @IBAction func loadWebView(sender: AnyObject) {
         let request = NSURLRequest(URL: NSURL(string: "http://www.bbc.co.uk")!)
         myWebView.loadRequest(request)
+    }
+    
+    @IBAction func responderTest(sender: AnyObject) {
+        responderTestButton.becomeFirstResponder()
     }
     
 }

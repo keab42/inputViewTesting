@@ -15,6 +15,9 @@
 		3473423E1D5C91EE000CBD72 /* WebWrapperView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3473423D1D5C91EE000CBD72 /* WebWrapperView.xib */; };
 		347342401D5C9243000CBD72 /* WebWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3473423F1D5C9243000CBD72 /* WebWrapperView.swift */; };
 		347342421D5C97D6000CBD72 /* ResponderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347342411D5C97D6000CBD72 /* ResponderButton.swift */; };
+		347342461D5CC945000CBD72 /* WebResponderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347342451D5CC945000CBD72 /* WebResponderButton.swift */; };
+		347342481D5CCB9B000CBD72 /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347342471D5CCB9B000CBD72 /* InputView.xib */; };
+		3473424C1D5CCCAA000CBD72 /* CustomInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3473424B1D5CCCAA000CBD72 /* CustomInputBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		3473423D1D5C91EE000CBD72 /* WebWrapperView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebWrapperView.xib; sourceTree = "<group>"; };
 		3473423F1D5C9243000CBD72 /* WebWrapperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebWrapperView.swift; sourceTree = "<group>"; };
 		347342411D5C97D6000CBD72 /* ResponderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponderButton.swift; sourceTree = "<group>"; };
+		347342451D5CC945000CBD72 /* WebResponderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebResponderButton.swift; sourceTree = "<group>"; };
+		347342471D5CCB9B000CBD72 /* InputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
+		3473424B1D5CCCAA000CBD72 /* CustomInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInputBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		3473422A1D5C90DA000CBD72 /* inputViewTesting */ = {
 			isa = PBXGroup;
 			children = (
+				3473424B1D5CCCAA000CBD72 /* CustomInputBar.swift */,
 				3473422B1D5C90DA000CBD72 /* AppDelegate.swift */,
 				3473422D1D5C90DA000CBD72 /* ViewController.swift */,
 				3473422F1D5C90DA000CBD72 /* Main.storyboard */,
@@ -69,6 +76,8 @@
 				3473423D1D5C91EE000CBD72 /* WebWrapperView.xib */,
 				3473423F1D5C9243000CBD72 /* WebWrapperView.swift */,
 				347342411D5C97D6000CBD72 /* ResponderButton.swift */,
+				347342451D5CC945000CBD72 /* WebResponderButton.swift */,
+				347342471D5CCB9B000CBD72 /* InputView.xib */,
 			);
 			path = inputViewTesting;
 			sourceTree = "<group>";
@@ -135,6 +144,7 @@
 				3473423E1D5C91EE000CBD72 /* WebWrapperView.xib in Resources */,
 				347342331D5C90DA000CBD72 /* Assets.xcassets in Resources */,
 				347342311D5C90DA000CBD72 /* Main.storyboard in Resources */,
+				347342481D5CCB9B000CBD72 /* InputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +158,9 @@
 				3473422E1D5C90DA000CBD72 /* ViewController.swift in Sources */,
 				347342401D5C9243000CBD72 /* WebWrapperView.swift in Sources */,
 				347342421D5C97D6000CBD72 /* ResponderButton.swift in Sources */,
+				3473424C1D5CCCAA000CBD72 /* CustomInputBar.swift in Sources */,
 				3473422C1D5C90DA000CBD72 /* AppDelegate.swift in Sources */,
+				347342461D5CC945000CBD72 /* WebResponderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

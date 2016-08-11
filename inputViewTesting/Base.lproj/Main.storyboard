@@ -17,23 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc8-rA-PYX" customClass="ResponderButton" customModule="inputViewTesting" customModuleProvider="target">
-                                <rect key="frame" x="217" y="285" width="166" height="30"/>
-                                <state key="normal" title="Open Custom inputView"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-Y4-GEu">
+                                <rect key="frame" x="218.5" y="550" width="163" height="30"/>
+                                <state key="normal" title="Make VC 1st Responder"/>
                                 <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SX0-L9-kwf"/>
+                                    <action selector="restoreButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uc9-iw-Y04"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Wc8-rA-PYX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q9K-re-bKR"/>
-                            <constraint firstItem="Wc8-rA-PYX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="toC-xY-HGm"/>
+                            <constraint firstItem="ZaL-Y4-GEu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6mO-hA-yVi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ZaL-Y4-GEu" secondAttribute="bottom" constant="20" id="cjT-fH-hvG"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="responderButton" destination="Wc8-rA-PYX" id="ajl-9f-g3c"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -25,9 +25,12 @@
                         <action selector="loadWebView:" destination="iN0-l3-epB" eventType="touchUpInside" id="hyM-Lp-cPb"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYD-q0-diS">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYD-q0-diS" customClass="ResponderButton" customModule="inputViewTesting" customModuleProvider="target">
                     <rect key="frame" x="485" y="330" width="100" height="30"/>
                     <state key="normal" title="1st Resp"/>
+                    <connections>
+                        <action selector="responderTest:" destination="iN0-l3-epB" eventType="touchUpInside" id="IVT-7h-yRf"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -44,6 +47,7 @@
             </constraints>
             <connections>
                 <outlet property="loadButton" destination="WsC-rj-siy" id="jMJ-10-eFx"/>
+                <outlet property="responderTestButton" destination="TYD-q0-diS" id="3h7-Wd-ete"/>
                 <outlet property="wrapperView" destination="47N-In-llB" id="uTg-qn-Jju"/>
             </connections>
         </view>
